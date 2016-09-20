@@ -1,0 +1,68 @@
+/* ------------------------------------------------------------------------- */
+/* GENERAL STYLES */
+/* ------------------------------------------------------------------------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  height: 100vh;
+  background: #f5f0ed;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* ------------------------------------------------------------------------- */
+/* @Example */
+/* ------------------------------------------------------------------------- */
+.figure {
+  float: left;
+  width: 20%;
+  height: 20vh;
+  padding: 5px;
+}
+
+.figure:nth-child(-n + 5) {
+  padding-top: 10px;
+}
+
+.figure:nth-child(5n) {
+  padding-right: 10px;
+}
+
+.figure:nth-child(5n + 1) {
+  padding-left: 10px;
+}
+
+.figure:nth-last-child(-n + 5) {
+  padding-bottom: 10px;
+}
+
+.content {
+  height: 100%;
+  background: #eac889;
+}
+
+/* Some fun with diagonals */
+.figure:nth-child(2n+1) .content {
+  background: #525d2f;
+}
+
+.figure:nth-child(2n+2) .content {
+  background: #7c8e41;
+}
+
+.figure:first-child .content,
+.figure:nth-child(5) .content,
+.figure:nth-last-child(5) .content,
+.figure:last-child .content {
+  background: #a4bd51;
+}
+
+.figure:nth-child(13) .content {
+  background: #1d210f;
+}

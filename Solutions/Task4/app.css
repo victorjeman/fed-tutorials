@@ -1,0 +1,119 @@
+/* ------------------------------------------------------------------------- */
+/* GENERAL STYLES */
+/* ------------------------------------------------------------------------- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    height: 100vh;
+    padding: 20px;
+    background: #f5f0ed;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* ------------------------------------------------------------------------- */
+/* @Example */
+/* ------------------------------------------------------------------------- */
+.face {
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    height: 320px;
+    margin: 120px auto 0 auto;
+    border-radius: 50%;
+    background: #000;
+}
+
+.ear {
+    position: absolute;
+    top: -110px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #000;
+}
+
+.ear:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    content: '';
+    border-radius: 50%;
+    background: #a79e8e;
+}
+
+.ear.left {
+    right: auto;
+    left: -100px;
+}
+
+.ear.right {
+    right: -100px;
+    left: auto;
+}
+
+.eye {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin: auto;
+    content: '';
+    background: #a79e8e;
+}
+
+.eye.left {
+    right: auto;
+    left: 70px;
+}
+
+.eye.right {
+    right: 70px;
+    left: auto;
+}
+
+.nose {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    content: '';
+    border-radius: 50%;
+    background: #a79e8e;
+}
+
+.mouth {
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 50px;
+    left: 0;
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    content: '';
+    border-radius: 50%;
+    background: #a79e8e;
+}

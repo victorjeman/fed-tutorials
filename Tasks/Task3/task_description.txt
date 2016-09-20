@@ -1,0 +1,3 @@
+Create the layout presented in the attached picture using only HTML and CSS.
+- The space between rectangle is 10px.
+- The number of rectangles stays the same.

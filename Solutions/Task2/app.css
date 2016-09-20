@@ -1,0 +1,50 @@
+/* ------------------------------------------------------------------------- */
+/* GENERAL STYLES */
+/* ------------------------------------------------------------------------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  height: 100vh;
+  padding: 50px 15px;
+  background: #948b8b;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: block;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 0;
+}
+
+/* ------------------------------------------------------------------------- */
+/* @Example 1 */
+/* ------------------------------------------------------------------------- */
+.section--1 {
+  text-align: center;
+}
+
+.section--1 .container {
+  /* why 0 ? */
+  font-size: 0;
+  display: inline-block;
+  padding: 10px;
+  background: #b9c1c1;
+}
+
+.section--1 .rectangle {
+  font-size: 20px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  vertical-align: middle;
+  background: #dea030;
+}
