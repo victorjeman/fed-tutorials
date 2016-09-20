@@ -1,7 +1,5 @@
-Create the layout presented in the attached picture using HTML,CSS and jQuery.
-- Initial number of rectangles is 3.
-- Between rectangles there is a space of 20px.
-- Between a rectangle and the container there is a space of 20px;
-- The container in wich rectangles are should have the exact necessary width to contain the rectangles, not more, not less
-- When cliking on add rectangle, a new rectangle should be added with an incremented number inside and the container width should change accordingly.
-- When cliking on remove rectangle, the last rectangle should be removed and the container width should change accordingly.
+Create the layout presented in the attached picture using only HTML and CSS.
+- Aside should have a width of 240px.
+- Main should have a width of 100% - 240px.
+- Both Aside and Main should have full height (think of slack as an example)
+- Provide at least two working solutions.
