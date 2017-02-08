@@ -1,0 +1,16 @@
+.c-section {
+  width: 100%;
+  max-width: 800px;
+  height: 2000px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  background-color: orange;
+}
+
+.c-scroll-button {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  display: none;
+}
