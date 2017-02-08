@@ -3,9 +3,10 @@
 // ARTICLES:
 //
 // https://medium.freecodecamp.com/3-questions-to-watch-out-for-in-a-javascript-interview-725012834ccb#.76wyogqpe
-
-// TODO:
-// TODO 1: Make use of Debouncing for this here
+//
+// TODOS:
+//
+// TODO 1: Make use of Debouncing here
 
 (($) => {
 
@@ -27,9 +28,7 @@
   // ----------------------------------------------------------------
 
   $scrollButton.on('click', scrollTop);
-
-  // [TODO 1]
-  $document.on('scroll', toggleScrollButton);
+  $document.on('scroll', toggleScrollButton); // [ TODO 1 ]
 
 
 
