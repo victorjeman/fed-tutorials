@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.c-section {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #DDD;
+}
+
+.c-rectangle {
+  width: 150px;
+  height: 150px;
+  transition: transform 1.5s ease-in-out;
+  background-color: orange;
+}
+
+/* animation-start class is added from js */
+.c-rectangle.animation-start-diagonal {
+  transform: translate(450px, 450px);
+}
+
+.c-rectangle.animation-start-vertical {
+  transform: translate(0, 450px);
+}
+
+.c-toggle-animation {
+  position: absolute;
+  top: -150px;
+  right: 50px;
+}
+
+.c-toggle-animation--diagonal {
+  top: -125px;
+}
+
+.c-toggle-animation--vertical {
+  top: -100px;
+}
+
+.c-toggle-animation--reset {
+  top: -75px;
+}
